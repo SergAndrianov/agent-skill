@@ -6,9 +6,9 @@
 Используй:
 - описание задачи фичи в Jira;
 - связанные через relates to истории и их критерии приемки;
-- knowledge/glossary.md;
-- knowledge/business-rules.md;
-- knowledge/assumptions.md;
+- knowledge/Глоссарий.md;
+- knowledge/Бизнес-правила.md;
+- knowledge/Допущения.md;
 - существующие артефакты репозитория для сохранения согласованности.
 
 ## Общие правила:
@@ -40,12 +40,16 @@
 ## Структура репозитория
 
 knowledge/
-  glossary.md
-  business-rules.md
-  assumptions.md
+  Глоссарий.md
+  Бизнес-правила.md
+  Допущения.md
 
 skills/
   c4/
     SKILL.md
 
+artifacts/
+  check.md
+
 AGENTS.md
+ai-log.md
