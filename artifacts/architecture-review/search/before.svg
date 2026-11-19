@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1340 1080" width="1340" height="1080" font-family="Arial, sans-serif" fill="#162f43" role="img"><title>ПлатиДом | C4 L2 | Поиск и привязка начислений</title><defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10Z" fill="#445364"/></marker></defs>
+<rect x="0" y="0" width="1340" height="1080" rx="0" fill="#fafbfd"/><text x="1300" y="46" text-anchor="end" fill="#944928" font-size="20">Воспроизведение ошибки</text>
+<text x="32" y="49" font-size="29" font-weight="700">ПлатиДом   ·   C4 L2   ·   Поиск и привязка начислений</text>
+<rect x="608" y="83" width="316" height="437" rx="15" fill="#eff7fa" stroke="#217184" stroke-width="2" stroke-dasharray="9 5"/>
+<text x="623" y="112" font-size="20" font-weight="700">ПлатиДом</text>
+<path d="M211 245 L310 245" stroke="#445364" stroke-width="2.3" marker-end="url(#arr)"/>
+<circle cx="260.5" cy="245" r="13" fill="#fff" stroke="#526676"/>
+<text x="260.5" y="250" font-size="14" text-anchor="middle" font-weight="700">1</text>
+<path d="M524 245 L631 245" stroke="#445364" stroke-width="2.3" marker-end="url(#arr)"/>
+<circle cx="577.5" cy="245" r="13" fill="#fff" stroke="#526676"/>
+<text x="577.5" y="250" font-size="14" text-anchor="middle" font-weight="700">2</text>
+<path d="M873 245 L1044 245" stroke="#445364" stroke-width="2.3" marker-end="url(#arr)"/>
+<circle cx="958.5" cy="245" r="13" fill="#fff" stroke="#526676"/>
+<text x="958.5" y="250" font-size="14" text-anchor="middle" font-weight="700">3</text>
+<path d="M752 299 L752 387" stroke="#445364" stroke-width="2.3" marker-end="url(#arr)"/>
+<circle cx="752" cy="343" r="13" fill="#fff" stroke="#526676"/>
+<text x="752" y="348" font-size="14" text-anchor="middle" font-weight="700">4</text>
+<circle cx="118" cy="195" r="22" fill="#47596c"/>
+<rect x="27" y="223" width="182" height="85" rx="20" fill="#47596c"/>
+<text x="118" y="256" font-size="18" text-anchor="middle" fill="white" font-weight="700">Клиент</text>
+<text x="118" y="279" font-size="14" text-anchor="middle" fill="#e0eef3">Участник</text>
+<rect x="1048" y="193" width="240" height="104" rx="10" fill="#47596c"/>
+<text x="1168" y="241" font-size="18" text-anchor="middle" fill="white" font-weight="700">ГИС ЖКХ</text>
+<text x="1168" y="264" font-size="14" text-anchor="middle" fill="#e0eef3">Внешняя система</text>
+<rect x="311" y="193" width="212" height="104" rx="10" fill="#47596c"/>
+<text x="417" y="230" font-size="16" text-anchor="middle" fill="white" font-weight="700">Мобильное приложение</text>
+<text x="417" y="252" font-size="16" text-anchor="middle" fill="white" font-weight="700">банка</text>
+<text x="417" y="275" font-size="14" text-anchor="middle" fill="#e0eef3">Внешняя система</text>
+<rect x="632" y="193" width="240" height="104" rx="10" fill="#105877"/>
+<text x="752" y="230" font-size="18" text-anchor="middle" fill="white" font-weight="700">Серверное приложение</text>
+<text x="752" y="252" font-size="18" text-anchor="middle" fill="white" font-weight="700">ПлатиДома</text>
+<text x="752" y="275" font-size="14" text-anchor="middle" fill="#e0eef3">Контейнер</text>
+<rect x="632" y="390" width="240" height="104" rx="10" fill="#105877"/>
+<ellipse cx="752" cy="396" rx="119" ry="10" fill="#247694"/>
+<text x="752" y="438" font-size="18" text-anchor="middle" fill="white" font-weight="700">Хранилище ПлатиДома</text>
+<text x="752" y="461" font-size="14" text-anchor="middle" fill="#e0eef3">Контейнер</text>
+<text x="32" y="560" font-size="23" font-weight="700">Связи</text>
+<text x="34" y="600" font-size="17" font-weight="700">1</text>
+<text x="78" y="600" font-size="15" font-weight="700">Клиент → Мобильное приложение банка</text>
+<text x="620" y="600" font-size="15" >Ищет, подтверждает привязку, просматривает свои счета</text>
+<text x="34" y="643" font-size="17" font-weight="700">2</text>
+<text x="78" y="643" font-size="15" font-weight="700">Мобильное приложение банка → Серверное приложение ПлатиДома</text>
+<text x="620" y="643" font-size="15" >Запрашивает поиск, сохранение, обновление; получает результаты и ошибки</text>
+<text x="34" y="686" font-size="17" font-weight="700">3</text>
+<text x="78" y="686" font-size="15" font-weight="700">Серверное приложение ПлатиДома → ГИС ЖКХ</text>
+<text x="620" y="686" font-size="15" >Запрашивает начисления по поставщику и счету; обрабатывает ответ или ошибку</text>
+<text x="34" y="729" font-size="17" font-weight="700">4</text>
+<text x="78" y="729" font-size="15" font-weight="700">Серверное приложение ПлатиДома → Хранилище ПлатиДома</text>
+<text x="620" y="729" font-size="15" >Читает привязки; сохраняет уникальные привязки и снимки с временем</text>
+<text x="32" y="795" font-size="23" font-weight="700">Ответственность элементов</text>
+<text x="34" y="831" font-size="16" font-weight="700">Клиент</text>
+<text x="356" y="831" font-size="16" >Пользователь мобильного банка</text>
+<text x="34" y="867" font-size="16" font-weight="700">ГИС ЖКХ</text>
+<text x="356" y="867" font-size="16" >Внешний источник начислений ЖКУ; A-01</text>
+<text x="34" y="903" font-size="16" font-weight="700">Мобильное приложение банка</text>
+<text x="356" y="903" font-size="16" >Ввод, результаты, подтверждение привязки и ошибки</text>
+<text x="34" y="939" font-size="16" font-weight="700">Серверное приложение ПлатиДома</text>
+<text x="356" y="939" font-size="16" >Контроль доступа, валидация, поиск, сохранение без дублей и обновление</text>
+<text x="356" y="958" font-size="14" fill="#3b5b6f">Серверное приложение; стек не определен</text>
+<text x="34" y="992" font-size="16" font-weight="700">Хранилище ПлатиДома</text>
+<text x="356" y="992" font-size="16" >Привязки с владельцем, начисления и время успешного обновления</text>
+<text x="356" y="1011" font-size="14" fill="#3b5b6f">База данных; СУБД не определена</text>
+</svg>

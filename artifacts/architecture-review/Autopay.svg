@@ -1,1 +1,94 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1530" height="810" viewBox="0 0 1530 810"><title>ПлатиДом | C4 L2 | Автоплатеж с лимитом</title><defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10Z" fill="#325777"/></marker></defs><rect width="100%" height="100%" fill="white"/><g font-family="Arial,sans-serif" fill="#163349"><text x="25" y="45" font-size="30" font-weight="700" fill="#163349">ПлатиДом  /  C4 L2  /  Автоплатеж с лимитом</text><text x="25" y="75" font-size="16" font-weight="400" fill="#163349">Учебная архитектура  •  пунктир — граница системы  •  стрелка — инициатор вызова  •  технологии и внешние контракты предложены</text><rect x="440" y="120" width="380" height="620" rx="12" fill="#f6faff" stroke="#517998" stroke-dasharray="9 5"/><text x="461" y="153" font-size="23" font-weight="700" fill="#163349">ПлатиДом</text><rect x="20" y="185" width="270" height="104" rx="34" fill="#eef2f5" stroke="#53738a"/><text x="33" y="208" font-size="14" font-weight="400" fill="#405766">Человек</text><text x="33" y="237" font-size="19" font-weight="700" fill="#163349">Клиент</text><text x="33" y="263" font-size="15" font-weight="400" fill="#163349">Владелец привязки и правила</text><rect x="20" y="410" width="270" height="125" rx="8" fill="#eef2f5" stroke="#53738a"/><text x="33" y="433" font-size="14" font-weight="400" fill="#405766">Внешняя система</text><text x="33" y="462" font-size="19" font-weight="700" fill="#163349">Мобильный банк</text><text x="33" y="488" font-size="15" font-weight="400" fill="#163349">Общее приложение банка с</text><text x="33" y="507" font-size="15" font-weight="400" fill="#163349">экраном ПлатиДома</text><rect x="465" y="365" width="330" height="146" rx="8" fill="#17629a" stroke="#53738a"/><text x="478" y="388" font-size="14" font-weight="400" fill="#d9efff">Java / Spring Boot</text><text x="478" y="417" font-size="17" font-weight="700" fill="white">Серверное приложение ПлатиДома</text><text x="478" y="443" font-size="15" font-weight="400" fill="white">Применяет правила владельца.</text><text x="478" y="462" font-size="15" font-weight="400" fill="white">Обрабатывает начисления и уточняет</text><text x="478" y="481" font-size="15" font-weight="400" fill="white">исход платежа в фоне.</text><rect x="465" y="590" width="330" height="130" rx="8" fill="#17629a" stroke="#53738a"/><text x="478" y="613" font-size="14" font-weight="400" fill="#d9efff">PostgreSQL</text><text x="478" y="642" font-size="19" font-weight="700" fill="white">Хранилище ПлатиДома</text><text x="478" y="668" font-size="15" font-weight="400" fill="white">Хранит правила, согласия, задания и</text><text x="478" y="687" font-size="15" font-weight="400" fill="white">записи попыток с ключами операций.</text><rect x="1210" y="115" width="305" height="125" rx="8" fill="#eef2f5" stroke="#53738a"/><text x="1223" y="138" font-size="14" font-weight="400" fill="#405766">Внешняя система</text><text x="1223" y="167" font-size="19" font-weight="700" fill="#163349">ГИС ЖКХ</text><text x="1223" y="193" font-size="15" font-weight="400" fill="#163349">Источник сведений о начислениях ЖКУ</text><rect x="1210" y="309" width="305" height="125" rx="8" fill="#eef2f5" stroke="#53738a"/><text x="1223" y="332" font-size="14" font-weight="400" fill="#405766">Внешняя система</text><text x="1223" y="361" font-size="19" font-weight="700" fill="#163349">Система карт банка</text><text x="1223" y="387" font-size="15" font-weight="400" fill="#163349">Предоставляет карты клиента и</text><text x="1223" y="406" font-size="15" font-weight="400" fill="#163349">доступные средства</text><rect x="1210" y="554" width="305" height="125" rx="8" fill="#eef2f5" stroke="#53738a"/><text x="1223" y="577" font-size="14" font-weight="400" fill="#405766">Внешняя система</text><text x="1223" y="606" font-size="19" font-weight="700" fill="#163349">Процессинг карт</text><text x="1223" y="632" font-size="15" font-weight="400" fill="#163349">Исполняет платеж и сообщает</text><text x="1223" y="651" font-size="15" font-weight="400" fill="#163349">состояние операции</text><path d="M150 289 V410" stroke="#325777" stroke-width="2" fill="none" marker-end="url(#a)"/><text x="160" y="319" font-size="14" font-weight="400" fill="#163349">Подтверждает правило,</text><text x="160" y="336" font-size="14" font-weight="400" fill="#163349">видит историю</text><text x="160" y="353" font-size="12" font-weight="700" fill="#365b76">UI</text><path d="M290 473 H465" stroke="#325777" stroke-width="2" fill="none" marker-end="url(#a)"/><text x="297" y="389" font-size="14" font-weight="400" fill="#163349">Изменяет правило и</text><text x="297" y="406" font-size="14" font-weight="400" fill="#163349">запрашивает историю</text><text x="297" y="423" font-size="14" font-weight="400" fill="#163349">владельца</text><text x="297" y="440" font-size="12" font-weight="700" fill="#365b76">HTTPS / JSON</text><path d="M788 511 V590" stroke="#325777" stroke-width="2" fill="none" marker-end="url(#a)"/><text x="451" y="530" font-size="14" font-weight="400" fill="#163349">Читает привязку и правило, фиксирует задание, ключ и</text><text x="454" y="549" font-size="14" font-weight="400" fill="#163349">результат попытки</text><text x="454" y="566" font-size="12" font-weight="700" fill="#365b76">PostgreSQL / TLS</text><path d="M795 380 H830 V178 H1210" stroke="#325777" stroke-width="2" fill="none" marker-end="url(#a)"/><text x="857" y="123" font-size="14" font-weight="400" fill="#163349">Запрашивает начисления, сверяет актуальную</text><text x="857" y="140" font-size="14" font-weight="400" fill="#163349">сумму перед оплатой</text><text x="857" y="157" font-size="12" font-weight="700" fill="#365b76">HTTPS</text><path d="M795 410 H855 V373 H1210" stroke="#325777" stroke-width="2" fill="none" marker-end="url(#a)"/><text x="878" y="318" font-size="14" font-weight="400" fill="#163349">Запрашивает карты владельца и доступные</text><text x="878" y="335" font-size="14" font-weight="400" fill="#163349">средства</text><text x="878" y="352" font-size="12" font-weight="700" fill="#365b76">HTTPS / JSON</text><path d="M795 443 H878 V583 H1210" stroke="#325777" stroke-width="2" fill="none" marker-end="url(#a)"/><text x="901" y="529" font-size="14" font-weight="400" fill="#163349">Поручает списание с ключом операции</text><text x="901" y="546" font-size="12" font-weight="700" fill="#365b76">HTTPS / JSON</text><path d="M795 478 H851 V651 H1210" stroke="#325777" stroke-width="2" fill="none" marker-end="url(#a)"/><text x="875" y="683" font-size="14" font-weight="400" fill="#163349">Запрашивает статус исходной операции по</text><text x="875" y="700" font-size="14" font-weight="400" fill="#163349">сохраненному ключу</text><text x="875" y="717" font-size="12" font-weight="700" fill="#365b76">HTTPS / JSON</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1340 1320" width="1340" height="1320" font-family="Arial, sans-serif" fill="#162f43" role="img"><title>ПлатиДом | C4 L2 | Автоплатеж с лимитом</title><defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10Z" fill="#445364"/></marker></defs>
+<rect x="0" y="0" width="1340" height="1320" rx="0" fill="#fafbfd"/>
+<text x="32" y="49" font-size="29" font-weight="700">ПлатиДом   ·   C4 L2   ·   Автоплатеж с лимитом</text>
+<rect x="267" y="83" width="657" height="437" rx="15" fill="#eff7fa" stroke="#217184" stroke-width="2" stroke-dasharray="9 5"/>
+<text x="282" y="112" font-size="20" font-weight="700">ПлатиДом</text>
+<path d="M211 245 L310 245" stroke="#445364" stroke-width="2.3" marker-end="url(#arr)"/>
+<circle cx="260.5" cy="245" r="13" fill="#fff" stroke="#526676"/>
+<text x="260.5" y="250" font-size="14" text-anchor="middle" font-weight="700">1</text>
+<path d="M524 245 L631 245" stroke="#445364" stroke-width="2.3" marker-end="url(#arr)"/>
+<circle cx="577.5" cy="245" r="13" fill="#fff" stroke="#526676"/>
+<text x="577.5" y="250" font-size="14" text-anchor="middle" font-weight="700">2</text>
+<path d="M752 299 L752 387" stroke="#445364" stroke-width="2.3" marker-end="url(#arr)"/>
+<circle cx="752" cy="343" r="13" fill="#fff" stroke="#526676"/>
+<text x="752" y="348" font-size="14" text-anchor="middle" font-weight="700">3</text>
+<path d="M873 222 L1044 128" stroke="#445364" stroke-width="2.3" marker-end="url(#arr)"/>
+<circle cx="958.5" cy="175" r="13" fill="#fff" stroke="#526676"/>
+<text x="958.5" y="180" font-size="14" text-anchor="middle" font-weight="700">4</text>
+<path d="M873 245 L1044 245" stroke="#445364" stroke-width="2.3" marker-end="url(#arr)"/>
+<circle cx="958.5" cy="245" r="13" fill="#fff" stroke="#526676"/>
+<text x="958.5" y="250" font-size="14" text-anchor="middle" font-weight="700">5</text>
+<path d="M873 264 L1044 372" stroke="#445364" stroke-width="2.3" marker-end="url(#arr)"/>
+<circle cx="958.5" cy="318" r="13" fill="#fff" stroke="#526676"/>
+<text x="958.5" y="323" font-size="14" text-anchor="middle" font-weight="700">6</text>
+<path d="M850 296 L1044 411" stroke="#445364" stroke-width="2.3" marker-end="url(#arr)"/>
+<circle cx="947" cy="353.5" r="13" fill="#fff" stroke="#526676"/>
+<text x="947" y="358.5" font-size="14" text-anchor="middle" font-weight="700">7</text>
+<circle cx="118" cy="195" r="22" fill="#47596c"/>
+<rect x="27" y="223" width="182" height="85" rx="20" fill="#47596c"/>
+<text x="118" y="256" font-size="18" text-anchor="middle" fill="white" font-weight="700">Клиент</text>
+<text x="118" y="279" font-size="14" text-anchor="middle" fill="#e0eef3">Участник</text>
+<rect x="1048" y="76" width="240" height="104" rx="10" fill="#47596c"/>
+<text x="1168" y="124" font-size="18" text-anchor="middle" fill="white" font-weight="700">ГИС ЖКХ</text>
+<text x="1168" y="147" font-size="14" text-anchor="middle" fill="#e0eef3">Внешняя система</text>
+<rect x="1048" y="193" width="240" height="104" rx="10" fill="#47596c"/>
+<text x="1168" y="241" font-size="18" text-anchor="middle" fill="white" font-weight="700">Система карт банка</text>
+<text x="1168" y="264" font-size="14" text-anchor="middle" fill="#e0eef3">Внешняя система</text>
+<rect x="1048" y="337" width="240" height="104" rx="10" fill="#47596c"/>
+<text x="1168" y="385" font-size="18" text-anchor="middle" fill="white" font-weight="700">Процессинг карт</text>
+<text x="1168" y="408" font-size="14" text-anchor="middle" fill="#e0eef3">Внешняя система</text>
+<rect x="311" y="169" width="212" height="152" rx="23" fill="#105877"/>
+<rect x="389" y="177" width="56" height="4" rx="2" fill="#d0eaf2"/>
+<rect x="399" y="312" width="36" height="3" rx="1" fill="#d0eaf2"/>
+<text x="417" y="230" font-size="16" text-anchor="middle" fill="white" font-weight="700">Мобильное приложение</text>
+<text x="417" y="252" font-size="16" text-anchor="middle" fill="white" font-weight="700">банка</text>
+<text x="417" y="275" font-size="14" text-anchor="middle" fill="#e0eef3">Контейнер</text>
+<rect x="632" y="193" width="240" height="104" rx="10" fill="#105877"/>
+<text x="752" y="230" font-size="18" text-anchor="middle" fill="white" font-weight="700">Серверное приложение</text>
+<text x="752" y="252" font-size="18" text-anchor="middle" fill="white" font-weight="700">ПлатиДома</text>
+<text x="752" y="275" font-size="14" text-anchor="middle" fill="#e0eef3">Контейнер</text>
+<rect x="632" y="390" width="240" height="104" rx="10" fill="#105877"/>
+<ellipse cx="752" cy="396" rx="119" ry="10" fill="#247694"/>
+<text x="752" y="438" font-size="18" text-anchor="middle" fill="white" font-weight="700">Хранилище ПлатиДома</text>
+<text x="752" y="461" font-size="14" text-anchor="middle" fill="#e0eef3">Контейнер</text>
+<text x="32" y="560" font-size="23" font-weight="700">Связи</text>
+<text x="34" y="600" font-size="17" font-weight="700">1</text>
+<text x="78" y="600" font-size="15" font-weight="700">Клиент → Мобильное приложение банка</text>
+<text x="620" y="600" font-size="15" >Подтверждает правило, видит историю · UI</text>
+<text x="34" y="643" font-size="17" font-weight="700">2</text>
+<text x="78" y="643" font-size="15" font-weight="700">Мобильное приложение банка → Серверное приложение ПлатиДома</text>
+<text x="620" y="643" font-size="15" >Изменяет правило и запрашивает историю владельца · HTTPS / JSON</text>
+<text x="34" y="686" font-size="17" font-weight="700">3</text>
+<text x="78" y="686" font-size="15" font-weight="700">Серверное приложение ПлатиДома → Хранилище ПлатиДома</text>
+<text x="620" y="686" font-size="15" >Читает привязку и правило, фиксирует задание, ключ и результат попытки · PostgreSQL / TLS</text>
+<text x="34" y="729" font-size="17" font-weight="700">4</text>
+<text x="78" y="729" font-size="15" font-weight="700">Серверное приложение ПлатиДома → ГИС ЖКХ</text>
+<text x="620" y="729" font-size="15" >Запрашивает начисления, сверяет актуальную сумму перед оплатой · HTTPS</text>
+<text x="34" y="772" font-size="17" font-weight="700">5</text>
+<text x="78" y="772" font-size="15" font-weight="700">Серверное приложение ПлатиДома → Система карт банка</text>
+<text x="620" y="772" font-size="15" >Запрашивает карты владельца и доступные средства · HTTPS / JSON</text>
+<text x="34" y="815" font-size="17" font-weight="700">6</text>
+<text x="78" y="815" font-size="15" font-weight="700">Серверное приложение ПлатиДома → Процессинг карт</text>
+<text x="620" y="815" font-size="15" >Поручает списание с ключом операции · HTTPS / JSON</text>
+<text x="34" y="858" font-size="17" font-weight="700">7</text>
+<text x="78" y="858" font-size="15" font-weight="700">Серверное приложение ПлатиДома → Процессинг карт</text>
+<text x="620" y="858" font-size="15" >Запрашивает статус исходной операции по сохраненному ключу · HTTPS / JSON</text>
+<text x="32" y="930" font-size="23" font-weight="700">Ответственность элементов</text>
+<text x="34" y="966" font-size="16" font-weight="700">Клиент</text>
+<text x="356" y="966" font-size="16" >Владелец привязки и правила</text>
+<text x="34" y="1002" font-size="16" font-weight="700">ГИС ЖКХ</text>
+<text x="356" y="1002" font-size="16" >Источник сведений о начислениях ЖКУ</text>
+<text x="34" y="1038" font-size="16" font-weight="700">Система карт банка</text>
+<text x="356" y="1038" font-size="16" >Предоставляет карты клиента и доступные средства</text>
+<text x="34" y="1074" font-size="16" font-weight="700">Процессинг карт</text>
+<text x="356" y="1074" font-size="16" >Исполняет платеж и сообщает состояние операции</text>
+<text x="34" y="1110" font-size="16" font-weight="700">Мобильное приложение банка</text>
+<text x="356" y="1110" font-size="16" >Экран настройки правила, подтверждения согласия и просмотра истории</text>
+<text x="356" y="1129" font-size="14" fill="#3b5b6f">Мобильное приложение; стек не определен</text>
+<text x="34" y="1163" font-size="16" font-weight="700">Серверное приложение ПлатиДома</text>
+<text x="356" y="1163" font-size="16" >Применяет правила владельца. Обрабатывает начисления и уточняет исход платежа в фоне.</text>
+<text x="356" y="1182" font-size="14" fill="#3b5b6f">Java / Spring Boot</text>
+<text x="34" y="1216" font-size="16" font-weight="700">Хранилище ПлатиДома</text>
+<text x="356" y="1216" font-size="16" >Хранит правила, согласия, задания и записи попыток с ключами операций.</text>
+<text x="356" y="1235" font-size="14" fill="#3b5b6f">PostgreSQL</text>
+</svg>
