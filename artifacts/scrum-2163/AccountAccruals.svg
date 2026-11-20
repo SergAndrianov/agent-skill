@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="796" viewBox="0 0 1536 796" role="img" aria-labelledby="title description">
+  <title id="title">C4 · Уровень 2 · ПлатиДом — Поиск и привязка начислений по лицевому счету</title>
+  <desc id="description">Клиент работает с мобильным приложением банка. Приложение обращается к API ПлатиДома. API читает и записывает данные в PostgreSQL, запрашивает начисления в ГИС ЖКХ.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M1 1L11 6L1 11Z" fill="#334862"/>
+    </marker>
+    <style>
+      text { font-family: "Segoe UI", Arial, sans-serif; }
+      .heading { fill: #183153; font-weight: 700; }
+      .detail { fill: #40546a; font-size: 15px; }
+      .node-title { fill: #fff; font-size: 21px; font-weight: 700; }
+      .node-detail { fill: #fff; font-size: 15px; }
+      .node-type { fill: #e3edf7; font-size: 13px; }
+      .call { fill: none; stroke: #334862; stroke-width: 2.4; marker-end: url(#arrow); }
+      .call-text { fill: #263b52; font-size: 15px; font-weight: 600; }
+      .call-tech { fill: #40546a; font-size: 13px; }
+    </style>
+  </defs>
+
+  <rect width="1536" height="796" fill="#fff"/>
+  <text x="44" y="47" class="heading" font-size="18">C4 · Уровень 2 · ПлатиДом</text>
+  <text x="44" y="91" class="heading" font-size="32">Поиск и привязка начислений по лицевому счету</text>
+  <text x="44" y="121" class="detail">Контейнеры и внешние зависимости фичи SCRUM-2163</text>
+  <path d="M44 145H1492" stroke="#dce4ee"/>
+
+  <rect x="354" y="184" width="725" height="507" rx="14" fill="#f4f8fc" stroke="#6a829c" stroke-width="2" stroke-dasharray="8 6"/>
+  <text x="378" y="220" class="heading" font-size="19">ПлатиДом</text>
+  <text x="378" y="242" class="detail">Граница программной системы</text>
+
+  <g id="client" text-anchor="middle">
+    <circle cx="128" cy="279" r="23" fill="#183153"/>
+    <rect x="44" y="304" width="168" height="120" rx="17" fill="#183153"/>
+    <text x="128" y="335" class="node-title">Клиент</text>
+    <text x="128" y="357" class="node-type">Пользователь</text>
+    <text x="128" y="382" class="node-detail">
+      <tspan x="128">Авторизован в</tspan>
+      <tspan x="128" dy="19">мобильном банке</tspan>
+    </text>
+  </g>
+
+  <g id="mobile" text-anchor="middle">
+    <rect x="374" y="262" width="174" height="201" rx="19" fill="#1d5681" stroke="#183153" stroke-width="3"/>
+    <path d="M445 274h32M448 451h26" stroke="#dceafa" stroke-width="2.5" stroke-linecap="round"/>
+    <text x="461" y="304" class="node-title">
+      <tspan x="461">Мобильное</tspan>
+      <tspan x="461" dy="23">приложение</tspan>
+      <tspan x="461" dy="23">банка</tspan>
+    </text>
+    <text x="461" y="377" class="node-type">Контейнер · iOS / Android</text>
+    <text x="461" y="400" class="node-detail">
+      <tspan x="461">Поиск, просмотр</tspan>
+      <tspan x="461" dy="18">и подтверждение</tspan>
+      <tspan x="461" dy="18">привязки</tspan>
+    </text>
+  </g>
+
+  <g id="api" text-anchor="middle">
+    <rect x="782" y="286" width="280" height="153" rx="9" fill="#1d5681"/>
+    <text x="922" y="321" class="node-title">API ПлатиДома</text>
+    <text x="922" y="345" class="node-type">Контейнер · Java / Spring Boot</text>
+    <text x="922" y="373" class="node-detail">
+      <tspan x="922">Проверяет доступ и реквизиты,</tspan>
+      <tspan x="922" dy="20">запрашивает начисления</tspan>
+      <tspan x="922" dy="20">и управляет привязками.</tspan>
+    </text>
+  </g>
+
+  <g id="db" text-anchor="middle">
+    <path d="M782 571C782 549 1062 549 1062 571V649C1062 674 782 674 782 649Z" fill="#1d5681"/>
+    <ellipse cx="922" cy="571" rx="140" ry="16" fill="#3376a6" stroke="#d2e5f5" stroke-width="1.4"/>
+    <text x="922" y="609" class="node-title">База данных ПлатиДома</text>
+    <text x="922" y="632" class="node-type">Контейнер · PostgreSQL</text>
+    <text x="922" y="650" class="node-detail" style="font-size:14px">Результаты поиска, привязки, снимки</text>
+  </g>
+
+  <g id="accrualSource" text-anchor="middle">
+    <rect x="1280" y="286" width="212" height="153" rx="9" fill="#526276"/>
+    <text x="1386" y="326" class="node-title">ГИС ЖКХ</text>
+    <text x="1386" y="350" class="node-type">Внешняя программная система</text>
+    <text x="1386" y="378" class="node-detail">
+      <tspan x="1386">Источник начислений ЖКУ.</tspan>
+      <tspan x="1386" dy="21">Учебное допущение A-01.</tspan>
+    </text>
+  </g>
+
+  <g id="relationships">
+    <path class="call" d="M212 365H373"/>
+    <text x="281" y="272" text-anchor="middle" class="call-text">
+      <tspan x="281">Вводит реквизиты,</tspan>
+      <tspan x="281" dy="18">смотрит</tspan>
+      <tspan x="281" dy="18">начисления,</tspan>
+      <tspan x="281" dy="18">подтверждает</tspan>
+      <tspan x="281" dy="18">привязку</tspan>
+    </text>
+    <text x="281" y="387" text-anchor="middle" class="call-tech">UI</text>
+
+    <path class="call" d="M548 365H781"/>
+    <text x="665" y="288" text-anchor="middle" class="call-text">
+      <tspan x="665">Ищет по реквизитам,</tspan>
+      <tspan x="665" dy="18">подтверждает по ID поиска,</tspan>
+      <tspan x="665" dy="18">читает свои привязки</tspan>
+      <tspan x="665" dy="18">и обновляет начисления</tspan>
+    </text>
+    <text x="665" y="387" text-anchor="middle" class="call-tech">HTTPS / JSON</text>
+
+    <path class="call" d="M1062 365H1279"/>
+    <text x="1180" y="305" text-anchor="middle" class="call-text">
+      <tspan x="1180">Запрашивает начисления</tspan>
+      <tspan x="1180" dy="18">по поставщику</tspan>
+      <tspan x="1180" dy="18">и лицевому счету</tspan>
+    </text>
+    <text x="1180" y="387" text-anchor="middle" class="call-tech">
+      <tspan x="1180">API ГИС ЖКХ</tspan>
+      <tspan x="1180" dy="17">Контракт уточнить</tspan>
+    </text>
+
+    <path class="call" d="M922 439V554"/>
+    <text x="905" y="468" text-anchor="end" class="call-text">
+      <tspan x="905">Читает и записывает</tspan>
+      <tspan x="905" dy="18">успешные поиски, привязки</tspan>
+      <tspan x="905" dy="18">и снимки начислений</tspan>
+    </text>
+    <text x="905" y="532" text-anchor="end" class="call-tech">SQL / JDBC</text>
+  </g>
+
+  <path d="M44 716H1492" stroke="#dce4ee"/>
+  <g id="legend">
+    <text x="44" y="755" class="heading" font-size="15">Условные обозначения</text>
+    <circle cx="246" cy="750" r="8" fill="#183153"/>
+    <text x="263" y="755" class="detail">Пользователь</text>
+    <rect x="400" y="742" width="21" height="16" rx="3" fill="#1d5681"/>
+    <text x="431" y="755" class="detail">Контейнер</text>
+    <rect x="544" y="742" width="21" height="16" rx="3" fill="#526276"/>
+    <text x="575" y="755" class="detail">Внешняя система</text>
+    <rect x="751" y="741" width="24" height="18" rx="3" fill="none" stroke="#6a829c" stroke-width="1.7" stroke-dasharray="4 3"/>
+    <text x="787" y="755" class="detail">Граница ПлатиДома</text>
+    <path d="M975 750H1003" class="call"/>
+    <text x="1017" y="755" class="detail">От инициатора к получателю</text>
+  </g>
+</svg>
