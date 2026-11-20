@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="970" viewBox="0 0 1280 970" role="img" aria-labelledby="diagram-title">
+<title id="diagram-title">ПлатиДом | C4 L2 | Поиск и привязка начислений</title>
+<desc>Клиент работает с мобильным приложением банка внутри ПлатиДома. Сервер ПлатиДома обращается к собственному хранилищу и внешнему источнику ГИС ЖКХ.</desc>
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+    <path d="M0 0 L10 5 L0 10Z" fill="#52687e"/>
+  </marker>
+</defs>
+<style>
+  text { font-family: 'Segoe UI', Arial, sans-serif; }
+  .overline { fill: #195e93; font-size: 15px; font-weight: 700; letter-spacing: 1px; }
+  .heading { fill: #10283e; font-size: 33px; font-weight: 700; }
+  .boundary { fill: #25425c; font-size: 17px; font-weight: 700; }
+  .node-title { fill: #fff; font-size: 18px; font-weight: 700; }
+  .node-meta { fill: #e2f0fa; font-size: 13px; }
+  .node-desc { fill: #fff; font-size: 14px; }
+  .edge-text { fill: #18364f; font-size: 14px; }
+  .edge-meta { fill: #435a71; font-size: 12px; font-weight: 600; }
+  .edge { fill: none; stroke: #52687e; stroke-width: 2; marker-end: url(#arrow); }
+</style>
+<rect width="1280" height="970" fill="#fff"/>
+<text x="54" y="45" class="overline" text-anchor="start"><tspan x="54" dy="0">C4 L2 · ПлатиДом</tspan></text>
+<text x="54" y="85" class="heading" text-anchor="start"><tspan x="54" dy="0">Поиск и привязка начислений</tspan></text>
+<rect x="48" y="285" width="782" height="661" rx="12" fill="#f6faff" stroke="#7591ab" stroke-width="1.5" stroke-dasharray="8 6"/>
+<text x="71" y="315" class="boundary" text-anchor="start"><tspan x="71" dy="0">ПлатиДом [Система]</tspan></text>
+<path class="edge" d="M450 217 V322"/>
+<path class="edge" d="M450 467 V573"/>
+<path class="edge" d="M648 657 H1004"/>
+<path class="edge" d="M450 704 V802"/>
+<text x="466" y="237" class="edge-text" text-anchor="start"><tspan x="466" dy="0">Ищет начисления, подтверждает</tspan><tspan x="466" dy="17">привязку и просматривает свои счета</tspan></text>
+<text x="466" y="274" class="edge-meta" text-anchor="start"><tspan x="466" dy="0">UI</tspan></text>
+<text x="466" y="496" class="edge-text" text-anchor="start"><tspan x="466" dy="0">Ищет начисления, сохраняет привязку и</tspan><tspan x="466" dy="17">обновляет данные по ней</tspan></text>
+<text x="466" y="533" class="edge-meta" text-anchor="start"><tspan x="466" dy="0">HTTPS / JSON (предложение)</tspan></text>
+<text x="918" y="588" class="edge-text" text-anchor="middle"><tspan x="918" dy="0">Запрашивает начисления</tspan><tspan x="918" dy="17">по поставщику и</tspan><tspan x="918" dy="17">лицевому счёту</tspan></text>
+<text x="918" y="642" class="edge-meta" text-anchor="middle"><tspan x="918" dy="0">HTTPS (контракт уточнить)</tspan></text>
+<text x="466" y="731" class="edge-text" text-anchor="start"><tspan x="466" dy="0">Читает и сохраняет привязки и снимки</tspan><tspan x="466" dy="17">начислений</tspan></text>
+<text x="466" y="768" class="edge-meta" text-anchor="start"><tspan x="466" dy="0">PostgreSQL / TLS (предложение)</tspan></text>
+<g id="client">
+  <circle cx="450" cy="132" r="22" fill="#123457"/>
+  <rect x="265" y="143" width="370" height="74" rx="24" fill="#123457"/>
+  <text x="450" y="162" class="node-title" text-anchor="middle"><tspan x="450" dy="0">Клиент</tspan></text>
+<text x="450" y="185" class="node-meta" text-anchor="middle"><tspan x="450" dy="0">Человек</tspan></text>
+<text x="450" y="210" class="node-desc" text-anchor="middle"><tspan x="450" dy="0">Авторизованный пользователь мобильного банка.</tspan></text>
+</g>
+<g id="mobile">
+  <rect x="296" y="322" width="308" height="145" rx="16" fill="#195e93"/>
+  <rect x="430" y="331" width="40" height="3" rx="1.5" fill="#a4c7e0"/>
+  <rect x="434" y="455" width="32" height="3" rx="1.5" fill="#a4c7e0"/>
+  <text x="450" y="363" class="node-title" text-anchor="middle"><tspan x="450" dy="0">Мобильное приложение банка</tspan></text>
+<text x="450" y="386" class="node-meta" text-anchor="middle"><tspan x="450" dy="0">Контейнер · Android / iOS (предложение)</tspan></text>
+<text x="450" y="411" class="node-desc" text-anchor="middle"><tspan x="450" dy="0">Ввод реквизитов, просмотр</tspan><tspan x="450" dy="18">начислений и явное подтверждение</tspan><tspan x="450" dy="18">привязки.</tspan></text>
+</g>
+<g id="api">
+  <rect x="252" y="573" width="396" height="131" rx="10" fill="#195e93"/>
+  <text x="450" y="607" class="node-title" text-anchor="middle"><tspan x="450" dy="0">Серверное приложение ПлатиДома</tspan></text>
+<text x="450" y="630" class="node-meta" text-anchor="middle"><tspan x="450" dy="0">Контейнер · Java / Spring Boot (предложение)</tspan></text>
+<text x="450" y="655" class="node-desc" text-anchor="middle"><tspan x="450" dy="0">Проверяет доступ и реквизиты, ищет начисления,</tspan><tspan x="450" dy="18">сохраняет привязки и обновляет снимки.</tspan></text>
+</g>
+<g id="gis">
+  <rect x="1004" y="573" width="232" height="131" rx="10" fill="#4c5968"/>
+  <text x="1120" y="607" class="node-title" text-anchor="middle"><tspan x="1120" dy="0">ГИС ЖКХ</tspan></text>
+<text x="1120" y="630" class="node-meta" text-anchor="middle"><tspan x="1120" dy="0">Внешняя система</tspan></text>
+<text x="1120" y="655" class="node-desc" text-anchor="middle"><tspan x="1120" dy="0">Внешний источник сведений о</tspan><tspan x="1120" dy="18">начислениях ЖКУ по</tspan><tspan x="1120" dy="18">допущению A-01.</tspan></text>
+</g>
+<g id="db">
+  <path d="M278 820 C278 798 622 798 622 820 V910 C622 940 278 940 278 910Z" fill="#195e93"/>
+  <path d="M278 820 C278 840 622 840 622 820" fill="none" stroke="#a4c7e0" stroke-width="1.5"/>
+  <text x="450" y="851" class="node-title" text-anchor="middle"><tspan x="450" dy="0">Хранилище ПлатиДома</tspan></text>
+<text x="450" y="874" class="node-meta" text-anchor="middle"><tspan x="450" dy="0">Контейнер · PostgreSQL (предложение)</tspan></text>
+<text x="450" y="899" class="node-desc" text-anchor="middle"><tspan x="450" dy="0">Хранит привязки владельцев и последние</tspan><tspan x="450" dy="18">успешные снимки с временем обновления.</tspan></text>
+</g>
+</svg>
